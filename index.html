@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+
+</head>
+
+<body class="bg-bg1">
+    <div class="w-full h-[82px] md:flex md:items-center md:justify-center bg-red-900 md:flex-row md:gap-[50px] flex items-center justify-center flex-row gap-2" id="banner">
+        <p class="md:text-2xl text-white text-xs">Yuk Upgrade Ke <a href="ajwadplus.html" class="md:text-2xl text-xs text-green-500">Ajwad
+                Plus</a> Dan
+            Dapatkan Promo-promo Yang Menarik!</p>
+        <button class="text-white md:text-3xl font-bold text-xs" id="close">X</button>
+    </div>
+    <div class="w-full h-28 bg-bg1 md:flex md:justify-center md:items-center md:flex-row md:gap-[800px] flex flex-row gap-28 justify-center items-center">
+        <img src="/assets/img/ajwad.png" alt="">
+        <div class="md:hidden block" onclick="showhidemenu()"><i class="bx bx-menu text-4xl"></i></div>
+        <div id="menu" class="hidden md:flex md:flex-row md:justify-center md:items-center md:gap-10 flex-col">
+            <a class="text-2xl font-medium text-red-900" href="">Beranda</a>
+            <a class="text-2xl font-medium hover:text-red-900" href="menu.html">Menu</a>
+            <a class="text-2xl font-medium hover:text-red-900" href="reservasi.html">Reservasi</a>
+            <a class="text-2xl font-medium hover:text-red-900" href="lokasi.html">Lokasi</a>
+            <a class="text-2xl font-medium hover:text-red-900" href="berita.html">Blog</a>
+        </div>
+    </div>
+    <div class="w-full h-[710px] bg-bgimg">
+        <div class="flex flex-col md:pl-40 px-8 md:pt-40 pt-36">
+            <p style="font-family: italianno;" class="md:text-9xl text-7xl text-white text-center md:text-start">Buffet</p>
+            <p class="md:text-7xl text-5xl text-white font-semibold text-center md:text-start">paket Pelajar</p>
+            <div class="flex flex-row gap-5 pt-6">
+                <div class="w-[180px] h-[65px] border-white border flex justify-center items-center">
+                    <p class="font-semibold text-xl text-white text-center">35 makanan</p>
+                </div>
+                <div class="w-[180px] h-[65px] border-white border flex justify-center items-center">
+                    <p class="font-semibold text-xl text-white text-center">15 makanan</p>
+                </div>
+                <div class="w-[180px] h-[65px] border-white border flex justify-center items-center">
+                    <p class="font-semibold text-xl text-white text-center">11 Desert</p>
+                </div>
+            </div>
+            <button
+                class="md:w-[377px] h-[70px] bg-bgbtn rounded-xl font-medium text-2xl mt-[60px] text-white hover:bg-white hover:ring-green-400 hover:ring hover:text-green-400 transition-all ">
+                Pesan Sekarang
+            </button>
+        </div>
+    </div>
+    <div class="flex flex-row gap-40 items-center justify-center">
+        <div class="flex mt-36 flex-col md:w-[700px] items-center w-full text-center relative left-20">
+            <p style="font-family: italianno;" class="text-7xl">Tentang Kami</p>
+            <p class="md:text-3xl text-xl mt-16">Ajwad Resto Condet adalah warung makan yang berlokasi di kawasan Condet, Jakarta
+                Timur.
+                Berdiri pada tahun 2005. </p>
+            <p class="md:text-3xl text-xl mt-12">restoran ini awalnya dimulai sebagai usaha kecil oleh sekelompok pengusaha muda
+                yang
+                memiliki visi untuk
+                menyajikan masakan otentik Indonesia dan Timur tengah dengan sentuhan modern.</p>
+            <button class="w-[350px] h-[78px] bg-bgbtn rounded-xl font-medium text-2xl mt-[50px] text-white">
+                Selengkapnya
+            </button>
+            <div class="flex flex-row mt-14 gap-2">
+                <div class="md:w-[340px] w-full px-10 py-8 md:h-[140px] h-[240] border border-gray-500 flex flex-col md:flex-row justify-center items-center md:gap-10">
+                    <img src="/assets/img/telp.png" alt="" class="md:w-full w-14">
+                    <div class="flex flex-col gap-5">
+                        <p class="font-medium md:text-3xl text-xl">Phone</p>
+                        <p class="font-medium md:text-2xl text-lg text-gray-500">0858</p>
+                    </div>
+                </div>
+                <div class="md:w-[340px] w-full px-10 py-8 md:h-[140px] h-[240] border border-gray-500 flex flex-col md:flex-row justify-center items-center md:gap-10">
+                    <img src="/assets/img/email.png" alt="" class="md:w-full w-14">
+                    <div class="flex flex-col gap-5">
+                        <p class="font-medium md:text-3xl text-xl">Email</p>
+                        <p class="font-medium md:text-2xl text-lg text-gray-500">@AjwadIndo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col">
+            <div class="flex flex-row">
+                <img src="/assets/img/lelia1.png" alt="">
+                <img src="/assets/img/lelia2.png" alt="">
+            </div>
+            <img src="/assets/img/lelia3.png" alt="">
+        </div>
+    </div>
+
+
+    <div class="flex md:mt-56 mt-32 md:ml-[75px] w-full flex-col">
+        <p style="font-family: italianno;" class="text-7xl text-center">Pelayanan Kami</p>
+        <div class="flex flex-row flex-wrap gap-2 pt-36 w-full">
+            <div class="md:w-[485px] mx-2 h-[488px] flex justify-center items-center flex-col bg-bgk1 gap-12">
+                <p class="text-4xl font-medium text-white">BUFFET</p>
+                <p class="font-medium md:text-xl text-lg px-8 md:px-0 text-white md:w-[400px] md:h-[72px]">Penyajian Yg mantap dan Higenis
+                    rasakan cita rasa nusantara dan timur tengah
+                    Hanya di Ajwad Resto</p>
+            </div>
+            <div class="md:w-[485px] mx-2 h-[488px] flex justify-center items-center flex-col bg-bgk2 gap-12">
+                <p class="text-4xl font-medium text-white">All you can eat</p>
+                <p class="font-medium md:text-xl text-lg px-8 md:px-0 text-white md:w-[400px] md:h-[72px]">Penyajian Yg mantap dan Higenis
+                    rasakan cita rasa nusantara dan timur tengah
+                    Hanya di Ajwad Resto</p>
+            </div>
+            <div class="md:w-[485px] mx-2 h-[488px] flex justify-center items-center flex-col bg-bgk3 gap-12">
+                <p class="text-4xl font-medium text-white">Pesta nikah</p>
+                <p class="font-medium md:text-xl text-lg px-8 md:px-0 text-white md:w-[400px] md:h-[72px]">Penyajian Yg mantap dan Higenis
+                    rasakan cita rasa nusantara dan timur tengah
+                    Hanya di Ajwad Resto</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="flex md:ml-[75px] mt-[120px] w-full flex-col ">
+        <p style="font-family: italianno;" class="text-7xl text-center">Menu Populer</p>
+        <div class="flex flex-row flex-wrap gap-3 mx-2">
+            <div class="flex mt-14 flex-col">
+                <img class="md:w-[485px] h-[488px]" src="/assets/img/m1.png" alt="">
+                <div class="bg-bg1 shadow-xl h-[340px] md:w-[485px] flex-col justify-center items-center flex">
+                    <p class="font-semibold text-3xl flex mt-6">Kebuli Biasa</p>
+                    <button
+                        class="w-[135px] h-[45px] rounded-lg bg-bg1 shadow-xl font-semibold text-2xl mt-8">Nasi</button>
+                    <div class="w-[285px] bg-black h-[1px] mt-6"></div>
+                    <p class="text-base flex mt-3">Telah mengabdi di ajwad resto selama
+                        kurang lebih 10 tahun </p>
+                    <button
+                        class="w-[162px] h-[44px] bg-bgbtn font-medium text-2xl text-white rounded-xl mt-7">Pesan</button>
+                </div>
+            </div>
+            <div class="flex mt-14 flex-col">
+                <img class="md:w-[485px] h-[488px]" src="/assets/img/m2.png" alt="">
+                <div class="bg-bg1 shadow-xl h-[340px] md:w-[485px] flex-col justify-center items-center flex">
+                    <p class="font-semibold text-3xl flex mt-6">Cane kari</p>
+                    <button
+                        class="w-[135px] h-[45px] rounded-lg bg-bg1 shadow-xl font-semibold text-2xl mt-8">pastry</button>
+                    <div class="w-[285px] bg-black h-[1px] mt-6"></div>
+                    <p class="text-base flex mt-3">Telah mengabdi di ajwad resto selama
+                        kurang lebih 10 tahun </p>
+                    <button
+                        class="w-[162px] h-[44px] bg-bgbtn font-medium text-2xl text-white rounded-xl mt-7">Pesan</button>
+                </div>
+            </div>
+            <div class="flex mt-14 flex-col">
+                <img class="md:w-[485px] h-[488px]" src="/assets/img/m3.png" alt="">
+                <div class="bg-bg1 shadow-xl h-[340px] md:w-[485px] flex-col justify-center items-center flex">
+                    <p class="font-semibold text-3xl flex mt-6">kopi arab</p>
+                    <button
+                        class="w-[135px] h-[45px] rounded-lg bg-bg1 shadow-xl font-semibold text-2xl mt-8">coffee</button>
+                    <div class="w-[285px] bg-black h-[1px] mt-6"></div>
+                    <p class="text-base flex mt-3">Telah mengabdi di ajwad resto selama
+                        kurang lebih 10 tahun </p>
+                    <button
+                        class="w-[162px] h-[44px] bg-bgbtn font-medium text-2xl text-white rounded-xl mt-7">Pesan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="flex md:ml-[75px] mt-[120px] flex-col">
+        <p style="font-family: italianno;" class="text-7xl text-center">Top Chef & staff</p>
+        <div class="flex flex-row flex-wrap gap-3 mx-2">
+            <div class="flex mt-14 flex-col">
+                <img class="md:w-[485px] h-[488px]" src="/assets/img/a1.png" alt="">
+                <div class="bg-bg1 shadow-xl h-[340px] md:w-[485px] flex-col justify-center items-center flex">
+                    <p class="font-semibold text-3xl flex mt-6">Baba Jamaludin</p>
+                    <button
+                        class="w-[135px] h-[45px] rounded-lg bg-bg1 shadow-xl font-semibold text-2xl mt-8">Chef</button>
+                    <div class="w-[285px] bg-black h-[1px] mt-6"></div>
+                    <p class="text-base flex mt-3">Telah mengabdi di ajwad resto selama
+                        kurang lebih 10 tahun </p>
+                    <img src="/assets/img/SOSMED.png" alt="">
+                </div>
+            </div>
+            <div class="flex mt-14 flex-col">
+                <img class="md:w-[485px] h-[488px]" src="/assets/img/a2.png" alt="">
+                <div class="bg-bg1 shadow-xl h-[340px] md:w-[485px] flex-col justify-center items-center flex">
+                    <p class="font-semibold text-3xl flex mt-6">Bobon santoso</p>
+                    <button
+                        class="w-[135px] h-[45px] rounded-lg bg-bg1 shadow-xl font-semibold text-2xl mt-8">Cooker</button>
+                    <div class="w-[285px] bg-black h-[1px] mt-6"></div>
+                    <p class="text-base flex mt-3">Telah mengabdi di ajwad resto selama
+                        kurang lebih 10 tahun </p>
+                    <img src="/assets/img/SOSMED.png" alt="">
+                </div>
+            </div>
+            <div class="flex mt-14 flex-col">
+                <img class="md:w-[485px] h-[488px]" src="/assets/img/a3.png" alt="">
+                <div class="bg-bg1 shadow-xl h-[340px] md:w-[485px] flex-col justify-center items-center flex">
+                    <p class="font-semibold text-3xl flex mt-6">Tretan yahya</p>
+                    <button
+                        class="w-[135px] h-[45px] rounded-lg bg-bg1 shadow-xl font-semibold text-2xl mt-8">waiters</button>
+                    <div class="w-[285px] bg-black h-[1px] mt-6"></div>
+                    <p class="text-base flex mt-3">Telah mengabdi di ajwad resto selama
+                        kurang lebih 10 tahun </p>
+                    <img src="/assets/img/SOSMED.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="flex md:ml-[70px] w-full mt-[120px] flex-col">
+        <p style="font-family: italianno;" class="md:text-7xl text-center text-6xl">suara dari pelanggan</p>
+        <div class="flex flex-col md:flex-row justify-center gap-12">
+            <div class="flex md:w-[622px] mx-2 h-[445px] bg-bg1 shadow-xl mt-[70px] flex-col gap-9 items-center">
+                <p class="md:text-5xl text-3xl mt-9">“kebulinya mantap”</p>
+                <p class="md:text-2xl text-lg md:w-[500px] w-[350px] text-center">Udah tempatnya nyaman,harga terjangkau
+                    dan masakanya itu loh, bikin Kangen..</p>
+                <div>
+                    <img src="/assets/img/p1.png" alt="">
+                    <p class="text-lg mt-4">PARIS BINJAI</p>
+                </div>
+                <div class="flex flex-row gap-1">
+                    <img src="/assets/img/star.png" alt="">
+                    <p class="text-lg">9.5</p>
+                </div>
+            </div>
+            <div class="flex md:w-[622px] mx-2 h-[445px] bg-bg1 shadow-xl mt-[70px] flex-col gap-9 items-center">
+                <p class="md:text-5xl text-3xl mt-9">“kebulinya mantap”</p>
+                <p class="md:text-2xl text-lg md:w-[500px] w-[350px] text-center">Udah tempatnya nyaman,harga terjangkau
+                    dan masakanya itu loh, bikin Kangen..</p>
+                <div>
+                    <img src="/assets/img/p2.png" alt="">
+                    <p class="text-lg mt-4">COKI PARDEDE</p>
+                </div>
+                <div class="flex flex-row gap-1">
+                    <img src="/assets/img/star.png" alt="">
+                    <p class="text-lg">9.5</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="flex md:flex-row flex-col md:gap-[400px] gap-24 items-center mt-32 md:mt-[400px] ml-6 md:ml-[70px]">
+            <div class="flex flex-row md:gap-[120px] gap-6">
+                <div class="flex-col gap-11 flex">
+                    <p class="font-bold text-5xl">Ajwad</p>
+                    <p class="text-2xl">Hubungi kami</p>
+                    <p class="text-2xl">Tentang Kami</p>
+                    <p class="text-2xl">Newsroom</p>
+                    <p class="text-2xl">Karier</p>
+                </div>
+                <div class="flex-col gap-11 flex mt-24">
+                    <p class="text-2xl">Layanan Kami</p>
+                    <p class="text-2xl">Sertifikasi & Jaminan Kualitas</p>
+                    <p class="text-2xl">CSGR</p>
+                    <p class="text-2xl">WFC plus</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-11">
+                <p class="font-bold text-5xl">Hubungi Kami</p>
+                <img src="/assets/img/SOSMED2.png" alt="">
+            </div>
+        </div>
+    <div
+        class="flex flex-col md:flex-row bg-bgbtn w-full h-28 py-4 justify-center items-center md:gap-[600px] gap-4 mt-24 md:mt-40">
+        <p class="text-2xl text-white">@Ajwad Resto INDONESIA</p>
+        <div class="flex flex-row md:gap-9 gap-4 items-center">
+            <p class="text-2xl text-white text-center">syarat & Ketentuan</p>
+            <p class="text-2xl text-white text-center">Kebijakan Privasi</p>
+        </div>
+    </div>
+    <script src="endpoint1.js"></script>
+</body>
+
+</html>

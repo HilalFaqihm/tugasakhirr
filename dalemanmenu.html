@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/output.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+
+</head>
+
+<body class="bg-bg1">
+    <div class="w-full h-[82px] md:flex md:items-center md:justify-center bg-red-900 md:flex-row md:gap-[50px] flex items-center justify-center flex-row gap-2" id="banner">
+        <p class="md:text-2xl text-white text-xs">Yuk Upgrade Ke <a href="ajwadplus.html" class="md:text-2xl text-xs text-green-500">Ajwad
+                Plus</a> Dan
+            Dapatkan Promo-promo Yang Menarik!</p>
+        <button class="text-white md:text-3xl font-bold text-xs" id="close">X</button>
+    </div>
+    <div class="w-full h-28 bg-bg1 md:flex md:justify-center md:items-center md:flex-row md:gap-[800px] flex flex-row gap-28 justify-center items-center">
+        <img src="/assets/img/ajwad.png" alt="">
+        <div class="md:hidden block" onclick="showhidemenu()"><i class="bx bx-menu text-4xl"></i></div>
+        <div id="menu" class="hidden md:flex md:flex-row md:justify-center md:items-center md:gap-10 flex-col">
+            <a class="text-2xl font-medium hover:text-red-900" href="index.html">Beranda</a>
+            <a class="text-2xl font-medium text-red-900" href="">Menu</a>
+            <a class="text-2xl font-medium hover:text-red-900" href="reservasi.html">Reservasi</a>
+            <a class="text-2xl font-medium hover:text-red-900" href="lokasi.html">Lokasi</a>
+            <a class="text-2xl font-medium hover:text-red-900" href="berita.html">Blog</a>
+        </div>
+    </div>
+
+    <a href="menu.html" class="text-gray-600 mb-4 ml-5 text-2xl my-10 flex">&lt; Kembali</a>
+
+    <div class="bg-bg1 p-6 rounded-lg shadow-lg mb-6">
+        <div class="md:flex md:items-start md:space-x-6 flex flex-col justify-center items-center md:flex-row">
+            <img src="/assets/img/detailmn.png" alt="Kebuli Ayam" class="md:w-1/3 rounded-lg ">
+            <div class="flex-1">
+                <h1 class="md:text-6xl font-bold md:mb-4 text-4xl">Kebuli Ayam</h1>
+                <p class="text-gray-700 md:mb-4 md:text-4xl text-xl">Terbuat Dari rempah-rempah nusantaran dan
+                    timur tengah dan Ayam yang diungkep dengan
+                    bumbu khas ajwad resto, wajib banget coba</p>
+                <div class="flex items-center space-x-4 mt-5">
+                    <button class="bg-green-600 text-black w-[60px] h-[50px] rounded-lg text-4xl">
+                        <ion-icon name="cart-outline"></ion-icon>
+                    </button>
+                    <div class="flex items-center space-x-2">
+                        <button class="px-2 py-1 shadow-lg rounded-lg w-[60px] h-[50px] text-3xl">-</button>
+                        <span id="p" class="text-2xl">1</span>
+                        <button class="px-2 py-1 shadow-lg rounded-lg w-[60px] h-[50px] text-3xl">+</button>
+                    </div>
+                    <span class="text-gray-700 font-bold text-xl">RP.50.000</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- dll -->
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu Lainnya</title>
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+
+    <body class="bg-gray-100">
+
+        <div class="max-w-4xl mx-auto p-4">
+            <!-- Other Menu Section -->
+            <h2 class="text-2xl font-bold mb-4 text-center">Menu Lainnya</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <!-- Menu Item 1 -->
+                <div class="bg-white p-4 rounded-lg shadow-lg relative">
+                    <img src="/assets/img/dkkmn1.png" alt="Briyani Kambing"
+                        class="w-full h-32 object-cover rounded-lg mb-4">
+                    <div
+                        class="absolute top-2 right-2 bg-yellow-400 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        5.5</div>
+                    <h3 class="text-lg font-bold text-center">Briyani Kambing</h3>
+                    <button
+                        class="absolute bottom-2 left-1/2 transform -translate-x-1/2 bg-white px-2 py-1 rounded-full shadow-md">
+                        <i class="fas fa-arrow-up"></i>
+                    </button>
+                </div>
+                <!-- Menu Item 2 -->
+                <div class="bg-white p-4 rounded-lg shadow-lg relative">
+                    <img src="/assets/img/dkkmn2.png" alt="Kambing Madu"
+                        class="w-full h-32 object-cover rounded-lg mb-4">
+                    <div
+                        class="absolute top-2 right-2 bg-yellow-400 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        5.5</div>
+                    <h3 class="text-lg font-bold text-center">Kambing Madu</h3>
+                    <button
+                        class="absolute bottom-2 left-1/2 transform -translate-x-1/2 bg-white px-2 py-1 rounded-full shadow-md">
+                        <i class="fas fa-arrow-up"></i>
+                    </button>
+                </div>
+                <!-- Menu Item 3 -->
+                <div class="bg-white p-4 rounded-lg shadow-lg relative">
+                    <img src="/assets/img/dkkmn3.png" alt="Es Matcha" class="w-full h-32 object-cover rounded-lg mb-4">
+                    <div
+                        class="absolute top-2 right-2 bg-yellow-400 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        5.5</div>
+                    <h3 class="text-lg font-bold text-center">Es Matcha</h3>
+                    <button
+                        class="absolute bottom-2 left-1/2 transform -translate-x-1/2 bg-white px-2 py-1 rounded-full shadow-md">
+                        <i class="fas fa-arrow-up"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="flex md:flex-row flex-col md:gap-[400px] gap-24 items-center mt-32 md:mt-[400px] ml-6 md:ml-[70px]">
+            <div class="flex flex-row md:gap-[120px] gap-6">
+                <div class="flex-col gap-11 flex">
+                    <p class="font-bold text-5xl">Ajwad</p>
+                    <p class="text-2xl">Hubungi kami</p>
+                    <p class="text-2xl">Tentang Kami</p>
+                    <p class="text-2xl">Newsroom</p>
+                    <p class="text-2xl">Karier</p>
+                </div>
+                <div class="flex-col gap-11 flex mt-24">
+                    <p class="text-2xl">Layanan Kami</p>
+                    <p class="text-2xl">Sertifikasi & Jaminan Kualitas</p>
+                    <p class="text-2xl">CSGR</p>
+                    <p class="text-2xl">WFC plus</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-11">
+                <p class="font-bold text-5xl">Hubungi Kami</p>
+                <img src="/assets/img/SOSMED2.png" alt="">
+            </div>
+        </div>
+    <div
+        class="flex flex-col md:flex-row bg-bgbtn w-full h-28 py-4 justify-center items-center md:gap-[600px] gap-4 mt-24 md:mt-40">
+        <p class="text-2xl text-white">@Ajwad Resto INDONESIA</p>
+        <div class="flex flex-row md:gap-9 gap-4 items-center">
+            <p class="text-2xl text-white text-center">syarat & Ketentuan</p>
+            <p class="text-2xl text-white text-center">Kebijakan Privasi</p>
+        </div>
+    </div>
+    </body>
+
+    </html>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

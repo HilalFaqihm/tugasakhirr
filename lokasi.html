@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>\
+    <link rel="stylesheet" href="assets/css/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-bg1">
+    <div class="w-full h-28 bg-bg1 md:flex md:justify-center md:items-center md:flex-row md:gap-[800px] flex flex-row gap-28 justify-center items-center">
+        <img src="/assets/img/ajwad.png" alt="">
+        <div class="md:hidden block" onclick="showhidemenu()"><i class="bx bx-menu text-4xl"></i></div>
+        <div id="menu" class="hidden md:flex md:flex-row md:justify-center md:items-center md:gap-10 flex-col basis-auto grow ">
+            <a class="text-2xl font-medium hover:text-red-900" href="index.html">Beranda</a>
+            <a class="text-2xl font-medium hover:text-red-900" href="menu.html">Menu</a>
+            <a class="text-2xl font-medium hover:text-red-900" href="reservasi.html">Reservasi</a>
+            <a class="text-2xl font-medium text-red-900" href="">Lokasi</a>
+            <a class="text-2xl font-medium hover:text-red-900" href="berita.html">Blog</a>
+        </div>
+    </div>
+    <div class="bg-bgimg6 w-full h-[710px] items-center flex justify-center flex-col gap-5">
+        <p class="font-bold md:text-8xl text-7xl text-white md:text-start text-center">Cari Ajwad Di Sekitarmu</p>
+        <p style="font-family: Poppins;" class="font-medium md:text-6xl text-4xl text-white">Mau ke mana?</p>
+        <div class="flex flex-row items-center gap-11">
+            <button style="font-family: Poppins;"
+                class="md:w-[365px] text-center h-[77px] rounded-2xl bg-bgbtn text-white font-medium text-xl px-2">Ajwad
+                Corner</button>
+            <button style="font-family: Poppins;"
+                class="md:w-[365px] text-center h-[77px] rounded-2xl bg-transparent border border-white text-white font-medium text-xl px-2">Ajwad
+                Corner</button>
+        </div>
+    </div>
+    <div class="flex mt-[70px] items-center justify-center">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15863.20700118482!2d106.8557735!3d-6.2897684!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f27ae4a51903%3A0xedd66600c385c86a!2sAjwad%20Resto!5e0!3m2!1sid!2sid!4v1717653721949!5m2!1sid!2sid"
+            width="1512" height="725.05" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="flex mt-[105px] justify-center items-center flex-col px-4 md:flex-row gap-[60px]">
+        <div class="md:w-[677px] h-[900px] rounded-2xl bg-bg1 items-center flex-col flex gap-12 shadow-xl">
+            <p class="font-semibold text-5xl mt-[45px] mb-[85px]">Ajwad Resto</p>
+            <div class="gap-7 flex flex-col">
+                <div class="flex items-center flex-row gap-2">
+                    <img src="/assets/img/titikumpul.png" alt="">
+                    <p style="font-family: Poppins;" class="text-3xl">Jl. Ahmad yani no.20 jakarta selatan</p>
+                </div>
+                <div class="flex items-center flex-row gap-2">
+                    <img src="/assets/img/titikumpul.png" alt="">
+                    <p style="font-family: Poppins;" class="text-3xl">Jl. Gatot Subroto no.12 jakarta Pusat</p>
+                </div>
+                <div class="flex items-center flex-row gap-2">
+                    <img src="/assets/img/titikumpul.png" alt="">
+                    <p style="font-family: Poppins;" class="text-3xl">Jl. Raya condet no.50 Jakarta Timur</p>
+                </div>
+                <div class="flex items-center flex-row gap-2">
+                    <img src="/assets/img/titikumpul.png" alt="">
+                    <p style="font-family: Poppins;" class="text-3xl">Jl. Raya Imigrasi Negeri jakarta Utara</p>
+                </div>
+            </div>
+            <img src="/assets/img/loc1.png" alt="">
+        </div>
+
+        <div class="md:w-[677px] h-[900px] rounded-2xl bg-bg1 items-center flex-col flex gap-12 shadow-xl">
+            <p class="font-semibold text-5xl mt-[45px] mb-[85px]">Ajwad Corner</p>
+            <div class="gap-7 flex flex-col">
+                <div class="flex items-center flex-row gap-2">
+                    <img src="/assets/img/titikumpul.png" alt="">
+                    <p style="font-family: Poppins;" class="text-3xl">Jl. Ahmad yani no.20 jakarta selatan</p>
+                </div>
+                <div class="flex items-center flex-row gap-2">
+                    <img src="/assets/img/titikumpul.png" alt="">
+                    <p style="font-family: Poppins;" class="text-3xl">Jl. Gatot Subroto no.12 jakarta Pusat</p>
+                </div>
+                <div class="flex items-center flex-row gap-2">
+                    <img src="/assets/img/titikumpul.png" alt="">
+                    <p style="font-family: Poppins;" class="text-3xl">Jl. Raya condet no.50 Jakarta Timur</p>
+                </div>
+                <div class="flex items-center flex-row gap-2">
+                    <img src="/assets/img/titikumpul.png" alt="">
+                    <p style="font-family: Poppins;" class="text-3xl">Jl. Raya Imigrasi Negeri jakarta Utara</p>
+                </div>
+            </div> 
+            <img src="/assets/img/loc2.png" alt="">
+        </div>
+    </div>
+    <div class="flex md:flex-row flex-col md:gap-[400px] gap-24 items-center mt-48 md:mt-[400px] ml-6 md:ml-[70px]">
+        <div class="flex flex-row md:gap-[120px] gap-6">
+            <div class="flex-col gap-11 flex">
+                <p class="font-bold text-5xl">Ajwad</p>
+                <p class="text-2xl">Hubungi kami</p>
+                <p class="text-2xl">Tentang Kami</p>
+                <p class="text-2xl">Newsroom</p>
+                <p class="text-2xl">Karier</p>
+            </div>
+            <div class="flex-col gap-11 flex mt-24">
+                <p class="text-2xl">Layanan Kami</p>
+                <p class="text-2xl">Sertifikasi & Jaminan Kualitas</p>
+                <p class="text-2xl">CSGR</p>
+                <p class="text-2xl">WFC plus</p>
+            </div>
+        </div>
+        <div class="flex flex-col gap-11">
+            <p class="font-bold text-5xl">Hubungi Kami</p>
+            <img src="/assets/img/SOSMED2.png" alt="">
+        </div>
+    </div>
+<div
+    class="flex flex-col md:flex-row bg-gray-400 w-full h-28 py-4 justify-center items-center md:gap-[600px] gap-4 mt-24 md:mt-40">
+    <p class="text-2xl text-white">@Ajwad Resto INDONESIA</p>
+    <div class="flex flex-row md:gap-9 gap-4 items-center">
+        <p class="text-2xl text-white text-center">syarat & Ketentuan</p>
+        <p class="text-2xl text-white text-center">Kebijakan Privasi</p>
+    </div>
+</div>
+</body>
+
+</html>

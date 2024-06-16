@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+
+<body class="bg-bg1">
+    <div class="w-full h-28 bg-bg1 md:flex md:justify-center md:items-center md:flex-row md:gap-[800px] flex flex-row gap-28 justify-center items-center">
+        <img src="/assets/img/ajwad.png" alt="">
+        <div class="md:hidden block" onclick="showhidemenu()"><i class="bx bx-menu text-4xl"></i></div>
+        <div id="menu" class="hidden md:flex md:flex-row md:justify-center md:items-center md:gap-10 flex-col basis-auto grow ">
+            <a class="text-2xl font-medium hover:text-red-900" href="index.html">Beranda</a>
+            <a class="text-2xl font-medium hover:text-red-900" href="menu.html">Menu</a>
+            <a class="text-2xl font-medium hover:text-red-900" href="reservasi.html">Reservasi</a>
+            <a class="text-2xl font-medium hover:text-red-900" href="lokasi.html">Lokasi</a>
+            <a class="text-2xl font-medium text-red-900" href="">Blog</a>
+        </div>
+    </div>
+    <div class="bg-bgimg3 w-full h-[710px] items-center flex justify-center">
+        <p class="font-bold text-8xl text-white md:text-start text-center">Berita Terkini</p>
+    </div>
+    <div class="flex justify-center px-2 items-center flex-row gap-[100px] flex-wrap mt-[175px]">
+        <div class="w-[397px] h-[536px] bg-bg1 shadow-xl rounded-3xl">
+            <img src="/assets/img/brt1.png" alt="">
+            <div class="ml-5 flex flex-col gap-9">
+                <p class="text-lg font-bold">* 23 Juni 2024</p>
+                <p class="font-bold text-2xl">Ajwad Resto Mendukung Timans
+                    Indonesia Menuju Final</p>
+                    <button class="w-[210px] h-[50px] bg-bgbtn rounded-2xl font-bold text-2xl text-white mt-10" onclick="blg()">Lebih Lanjut</button>
+            </div>
+        </div>
+        <div class="w-[397px] h-[536px] bg-bg1 shadow-xl rounded-3xl">
+            <img src="/assets/img/brt2.png" alt="">
+            <div class="ml-5 flex flex-col gap-9">
+                <p class="text-lg font-bold">* 25 Juli 2024</p>
+                <p class="font-bold text-2xl">Ajwad Resto Ikut Andil Dalam kegiatan Kemanusiaan palestina</p>
+                    <button class="w-[210px] h-[50px] bg-bgbtn rounded-2xl font-bold text-2xl text-white mt-10">Lebih Lanjut</button>
+            </div>
+        </div>
+        <div class="w-[397px] h-[536px] bg-bg1 shadow-xl rounded-3xl">
+            <img src="/assets/img/brt3.png" alt="">
+            <div class="ml-5 flex flex-col gap-9">
+                <p class="text-lg font-bold">* 15 April 2024</p>
+                <p class="font-bold text-2xl">Ajwad Resto Hadir Di Lebaran Fair
+                    jakarta 2024</p>
+                    <button class="w-[210px] h-[50px] bg-bgbtn rounded-2xl font-bold text-2xl text-white mt-10">Lebih Lanjut</button>
+            </div>
+        </div>
+        <div class="w-[397px] h-[536px] bg-bg1 shadow-xl rounded-3xl">
+            <img src="/assets/img/brt4.png" alt="">
+            <div class="ml-5 flex flex-col gap-9">
+                <p class="text-lg font-bold">* 21 Januari 2024</p>
+                <p class="font-bold text-2xl">Ajwad Resto Resmi Berkerja Sama
+                    Dengan Baznas</p>
+                    <button class="w-[210px] h-[50px] bg-bgbtn rounded-2xl font-bold text-2xl text-white mt-10">Lebih Lanjut</button>
+            </div>
+        </div>
+        <div class="w-[397px] h-[536px] bg-bg1 shadow-xl rounded-3xl">
+            <img src="/assets/img/brt5.png" alt="">
+            <div class="ml-5 flex flex-col gap-9">
+                <p class="text-lg font-bold">* 12 Mei 2024</p>
+                <p class="font-bold text-2xl">Gordon Ramsay Dateng ke Ajwad
+                    Resto Ada apa ?</p>
+                    <button class="w-[210px] h-[50px] bg-bgbtn rounded-2xl font-bold text-2xl text-white mt-10">Lebih Lanjut</button>
+            </div>
+        </div>
+        <div class="w-[397px] h-[536px] bg-bg1 shadow-xl rounded-3xl">
+            <img src="/assets/img/brt6.png" alt="">
+            <div class="ml-5 flex flex-col gap-9">
+                <p class="text-lg font-bold">* 20 Agustus 2024</p>
+                <p class="font-bold text-2xl">Ajwad Resto Siap Menjamu Rombongan Raja Salman</p>
+                    <button class="w-[210px] h-[50px] bg-bgbtn rounded-2xl font-bold text-2xl text-white mt-10">Lebih Lanjut</button>
+            </div>
+        </div>
+        <div class="w-[397px] h-[536px] bg-bg1 shadow-xl rounded-3xl">
+            <img src="/assets/img/brt7.png" alt="">
+            <div class="ml-5 flex flex-col gap-9">
+                <p class="text-lg font-bold">* 23 Juni 2024</p>
+                <p class="font-bold text-2xl">Barista Ajwad Resto Memborong
+                    Gelar Juara 1 di Saudi coffe.comp</p>
+                    <button class="w-[210px] h-[50px] bg-bgbtn rounded-2xl font-bold text-2xl text-white mt-10">Lebih Lanjut</button>
+            </div>
+        </div>
+        <div class="w-[397px] h-[536px] bg-bg1 shadow-xl rounded-3xl">
+            <img src="/assets/img/brt8.png" alt="">
+            <div class="ml-5 flex flex-col gap-9">
+                <p class="text-lg font-bold">* 25 Juli 2024</p>
+                <p class="font-bold text-2xl">Ajwad Resto Mendapatkan Rekor
+                    Guiness world Record</p>
+                    <button class="w-[210px] h-[50px] bg-bgbtn rounded-2xl font-bold text-2xl text-white mt-10">Lebih Lanjut</button>
+            </div>
+        </div>
+        <div class="w-[397px] h-[536px] bg-bg1 shadow-xl rounded-3xl">
+            <img src="/assets/img/brt9.png" alt="">
+            <div class="ml-5 flex flex-col gap-9">
+                <p class="text-lg font-bold">* 15 April 2024</p>
+                <p class="font-bold text-2xl">Ajwad Resto Hadir Di Muslim Life
+                    Fest BSD</p>
+                    <button class="w-[210px] h-[50px] bg-bgbtn rounded-2xl font-bold text-2xl text-white mt-10">Lebih Lanjut</button>
+            </div>
+        </div>
+        <div class="w-[397px] h-[536px] bg-bg1 shadow-xl rounded-3xl">
+            <img src="/assets/img/brt1.png" alt="">
+            <div class="ml-5 flex flex-col gap-9">
+                <p class="text-lg font-bold">* 23 Juni 2024</p>
+                <p class="font-bold text-2xl">Ajwad Resto Mendukung Timans
+                    Indonesia Menuju Final</p>
+                    <button class="w-[210px] h-[50px] bg-bgbtn rounded-2xl font-bold text-2xl text-white mt-10">Lebih Lanjut</button>
+            </div>
+        </div>
+        <div class="w-[397px] h-[536px] bg-bg1 shadow-xl rounded-3xl">
+            <img src="/assets/img/brt4.png" alt="">
+            <div class="ml-5 flex flex-col gap-9">
+                <p class="text-lg font-bold">* 23 Juni 2024</p>
+                <p class="font-bold text-2xl">Ajwad Resto Mendukung Timans
+                    Indonesia Menuju Final</p>
+                    <button class="w-[210px] h-[50px] bg-bgbtn rounded-2xl font-bold text-2xl text-white mt-10">Lebih Lanjut</button>
+            </div>
+        </div>
+        <div class="w-[397px] h-[536px] bg-bg1 shadow-xl rounded-3xl">
+            <img src="/assets/img/brt3.png" alt="">
+            <div class="ml-5 flex flex-col gap-9">
+                <p class="text-lg font-bold">* 15 April 2024</p>
+                <p class="font-bold text-2xl">Ajwad Resto Hadir Di Lebaran Fair
+                    jakarta 2024</p>
+                    <button class="w-[210px] h-[50px] bg-bgbtn rounded-2xl font-bold text-2xl text-white mt-10">Lebih Lanjut</button>
+            </div>
+        </div>
+    </div>
+    <div class="flex md:flex-row flex-col md:gap-[400px] gap-24 items-center mt-32 md:mt-[400px] ml-6 md:ml-[70px]">
+        <div class="flex flex-row md:gap-[120px] gap-6">
+            <div class="flex-col gap-11 flex">
+                <p class="font-bold text-5xl">Ajwad</p>
+                <p class="text-2xl">Hubungi kami</p>
+                <p class="text-2xl">Tentang Kami</p>
+                <p class="text-2xl">Newsroom</p>
+                <p class="text-2xl">Karier</p>
+            </div>
+            <div class="flex-col gap-11 flex mt-24">
+                <p class="text-2xl">Layanan Kami</p>
+                <p class="text-2xl">Sertifikasi & Jaminan Kualitas</p>
+                <p class="text-2xl">CSGR</p>
+                <p class="text-2xl">WFC plus</p>
+            </div>
+        </div>
+        <div class="flex flex-col gap-11">
+            <p class="font-bold text-5xl">Hubungi Kami</p>
+            <img src="/assets/img/SOSMED2.png" alt="">
+        </div>
+    </div>
+<div
+    class="flex flex-col md:flex-row bg-bgbtn w-full h-28 py-4 justify-center items-center md:gap-[600px] gap-4 mt-24 md:mt-40">
+    <p class="text-2xl text-white">@Ajwad Resto INDONESIA</p>
+    <div class="flex flex-row md:gap-9 gap-4 items-center">
+        <p class="text-2xl text-white text-center">syarat & Ketentuan</p>
+        <p class="text-2xl text-white text-center">Kebijakan Privasi</p>
+    </div>
+</div>
+<script src="endpoint1.js"></script>
+</body>
+</html>

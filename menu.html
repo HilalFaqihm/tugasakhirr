@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+
+</head>
+
+<body class="bg-bg1">
+    <div class="w-full h-[82px] md:flex md:items-center md:justify-center bg-red-900 md:flex-row md:gap-[50px] flex items-center justify-center flex-row gap-2" id="banner">
+        <p class="md:text-2xl text-white text-xs">Yuk Upgrade Ke <a href="ajwadplus.html" class="md:text-2xl text-xs text-green-500">Ajwad
+                Plus</a> Dan
+            Dapatkan Promo-promo Yang Menarik!</p>
+        <button class="text-white md:text-3xl font-bold text-xs" id="close">X</button>
+    </div>
+    <div class="w-full h-28 bg-bg1 md:flex md:justify-center md:items-center md:flex-row md:gap-[800px] flex flex-row gap-28 justify-center items-center">
+        <img src="/assets/img/ajwad.png" alt="">
+        <div class="md:hidden block" onclick="showhidemenu()"><i class="bx bx-menu text-4xl"></i></div>
+        <div id="menu" class="hidden md:flex md:flex-row md:justify-center md:items-center md:gap-10 flex-col">
+            <a class="text-2xl font-medium hover:text-red-900" href="index.html">Beranda</a>
+            <a class="text-2xl font-medium text-red-900" href="">Menu</a>
+            <a class="text-2xl font-medium hover:text-red-900" href="reservasi.html">Reservasi</a>
+            <a class="text-2xl font-medium hover:text-red-900" href="lokasi.html">Lokasi</a>
+            <a class="text-2xl font-medium hover:text-red-900" href="berita.html">Blog</a>
+        </div>
+    </div>
+    <div class="w-full h-[710px] bg-bgimg2">
+        <div class="flex flex-col md:pl-40 px-8 md:pt-40 pt-36">
+            <p style="font-family: italianno;" class="md:text-9xl text-7xl text-white text-center md:text-start">Menu</p>
+            <p class="md:text-7xl text-5xl text-white font-semibold text-center md:text-start">Ajwad Resto</p>
+            <div class="flex flex-row gap-5 pt-6">
+                <div class="w-[180px] h-[65px] border-white border flex justify-center items-center">
+                    <p class="font-semibold text-xl text-white text-center">35 makanan</p>
+                </div>
+                <div class="w-[180px] h-[65px] border-white border flex justify-center items-center">
+                    <p class="font-semibold text-xl text-white text-center">15 makanan</p>
+                </div>
+                <div class="w-[180px] h-[65px] border-white border flex justify-center items-center">
+                    <p class="font-semibold text-xl text-white text-center">11 Desert</p>
+                </div>
+            </div>
+            <button
+                class="md:w-[377px] h-[70px] bg-bgbtn rounded-xl font-medium text-2xl mt-[60px] text-white hover:bg-white hover:ring-green-400 hover:ring hover:text-green-400 transition-all ">
+                Pesan Sekarang
+            </button>
+        </div>
+    </div>
+    <p style="font-family: italianno; text-align: center;" class="text-7xl my-24">Pilih Menu</p>
+    <div class="flex flex-col md:flex-row items-center justify-center gap-32">
+        <div class="md:w-[263px] w-80 h-[425px] md:h-[546px] flex-col gap-6 items-center flex bg-bg1 border border-gray-500 pt-8">
+            <button style="font-family: italianno;" class="text-5xl">Semua Menu</button>
+            <button class="text-3xl text-red-900">Main course</button>
+            <button class="text-3xl">Appetizers</button>
+            <button class="text-3xl" id="kbgmnu">kambing Bakar</button>
+            <button class="text-3xl">Minuman</button>
+            <button class="text-3xl">menu Populer</button>
+        </div>
+        <!-- template 1 -->
+        <div id="mcourse" class="flex md:mt-32 flex-row gap-[135px] justify-center items-center">
+            <div class="flex w-full md:ml-0 ml-1 gap-[75px]" id="mc">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="w-[315px] h-[355px] flex bg-bgmn1 flex-col gap-[230px] items-center justify-center" onclick="dlmnu()">
+                        <div class="flex flex-row gap-1 items-center ml-56">
+                            <img src="/assets/img/star.png" alt="">
+                            <p class="font-semibold text-base text-white">5.5</p>
+                        </div>
+                        <div class="flex flex-row gap-20 items-center">
+                            <div class="flex flex-col gap-2">
+                                <p class="text-2xl text-white font-semibold">Briyani Kambing</p>
+                                <div class="flex flex-row items-center gap-2">
+                                    <img src="/assets/img/jam.png" alt="">
+                                    <p class="font-bold text-lg text-white">20 Minutes</p>
+                                </div>
+                            </div>
+                            <img id="tag" class="w-7 h-7" src="/assets/img/archieve.png" alt="">
+                        </div>
+                    </div>
+                    <div class="w-[315px] h-[355px] flex bg-bgmn2 flex-col gap-[230px] items-center justify-center">
+                        <div class="flex flex-row gap-1 items-center ml-56">
+                            <img src="/assets/img/star.png" alt="">
+                            <p class="font-semibold text-base text-white">5.5</p>
+                        </div>
+                        <div class="flex flex-row gap-20 items-center">
+                            <div class="flex flex-col gap-2">
+                                <p class="text-2xl text-white font-semibold">Kebuli Ayam</p>
+                                <div class="flex flex-row items-center gap-2">
+                                    <img src="/assets/img/jam.png" alt="">
+                                    <p class="font-bold text-lg text-white">20 Minutes</p>
+                                </div>
+                            </div>
+                            <img id="tag2" class="w-7 h-7" src="/assets/img/archieve.png" alt="">
+                        </div>
+                    </div>
+                    <div class="w-[315px] h-[355px] flex bg-bgmn3 flex-col gap-[230px] items-center justify-center">
+                        <div class="flex flex-row gap-1 items-center ml-56">
+                            <img src="/assets/img/star.png" alt="">
+                            <p class="font-semibold text-base text-white">5.5</p>
+                        </div>
+                        <div class="flex flex-row gap-20 items-center">
+                            <div class="flex flex-col gap-2">
+                                <p class="text-2xl text-white font-semibold">Kebuli Ayam</p>
+                                <div class="flex flex-row items-center gap-2">
+                                    <img src="/assets/img/jam.png" alt="">
+                                    <p class="font-bold text-lg text-white">20 Minutes</p>
+                                </div>
+                            </div>
+                            <img id="tag3" class="w-7 h-7" src="/assets/img/archieve.png" alt="">
+                        </div>
+                    </div>
+                    <div class="w-[315px] h-[355px] flex bg-bgmn4 flex-col gap-[230px] items-center justify-center">
+                        <div class="flex flex-row gap-1 items-center ml-56">
+                            <img src="/assets/img/star.png" alt="">
+                            <p class="font-semibold text-base text-white">5.5</p>
+                        </div>
+                        <div class="flex flex-row gap-20 items-center">
+                            <div class="flex flex-col gap-2">
+                                <p class="text-2xl text-white font-semibold">Briyani Kambing</p>
+                                <div class="flex flex-row items-center gap-2">
+                                    <img src="/assets/img/jam.png" alt="">
+                                    <p class="font-bold text-lg text-white">20 Minutes</p>
+                                </div>
+                            </div>
+                            <img id="tag4" class="w-7 h-7" src="/assets/img/archieve.png" alt="">
+                        </div>
+                    </div>
+                    <div class="w-[315px] h-[355px] flex bg-bgmn5 flex-col gap-[230px] items-center justify-center">
+                        <div class="flex flex-row gap-1 items-center ml-56">
+                            <img src="/assets/img/star.png" alt="">
+                            <p class="font-semibold text-base text-white">5.5</p>
+                        </div>
+                        <div class="flex flex-row gap-20 items-center">
+                            <div class="flex flex-col gap-2">
+                                <p class="text-2xl text-white font-semibold">Briyani Kambing</p>
+                                <div class="flex flex-row items-center gap-2">
+                                    <img src="/assets/img/jam.png" alt="">
+                                    <p class="font-bold text-lg text-white">20 Minutes</p>
+                                </div>
+                            </div>
+                            <img id="tag5" class="w-7 h-7" src="/assets/img/archieve.png" alt="">
+                        </div>
+                    </div>
+                    <div class="w-[315px] h-[355px] flex bg-bgmn6 flex-col gap-[230px] items-center justify-center">
+                        <div class="flex flex-row gap-1 items-center ml-56">
+                            <img src="/assets/img/star.png" alt="">
+                            <p class="font-semibold text-base text-white">5.5</p>
+                        </div>
+                        <div class="flex flex-row gap-20 items-center">
+                            <div class="flex flex-col gap-2">
+                                <p class="text-2xl text-white font-semibold">Briyani Kambing</p>
+                                <div class="flex flex-row items-center gap-2">
+                                    <img src="/assets/img/jam.png" alt="">
+                                    <p class="font-bold text-lg text-white">20 Minutes</p>
+                                </div>
+                            </div>
+                            <img id="tag6" class="w-7 h-7" src="/assets/img/archieve.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>      
+    <script src="endpoint1.js"></script>
+</body>
+
+</html>

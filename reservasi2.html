@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-bg1">
+    <div
+        class="w-full h-28 bg-bg1 md:flex md:justify-center md:items-center md:flex-row md:gap-[800px] flex flex-row gap-28 justify-center items-center">
+        <img src="/assets/img/ajwad.png" alt="">
+        <div class="md:hidden block" onclick="showhidemenu()"><i class="bx bx-menu text-4xl"></i></div>
+        <div id="menu"
+            class="hidden md:flex md:flex-row md:justify-center md:items-center md:gap-10 flex-col basis-auto grow ">
+            <a class="text-2xl font-medium hover:text-red-900" href="index.html">Beranda</a>
+            <a class="text-2xl font-medium hover:text-red-900" href="menu.html">Menu</a>
+            <a class="text-2xl font-medium text-red-900" href="">Reservasi</a>
+            <a class="text-2xl font-medium hover:text-red-900" href="lokasi.html">Lokasi</a>
+            <a class="text-2xl font-medium hover:text-red-900" href="berita.html">Blog</a>
+        </div>
+    </div>
+    <div class="bg-bgimg7 md:flex md:justify-center md:items-center md:w-full md:h-[1821px] md:flex-col flex justify-center items-center w-full h-[1200px] flex-col">
+        <div
+            class="md:flex md:justify-center md:items-center md:w-[1114px] md:h-[120px] bg-black flex justify-center items-center w-[350px] h-[30px]">
+            <p style="font-family: Poppins;" class="md:text-3xl text-xs text-white">Pesan Meja Ajwad gak Perlu Ngantri lagi Bray!
+            </p>
+        </div>
+        <div class="bg-bg1 md:w-[1114px] md:h-[1260px] md:flex md:justify-center w-[350px] h-[600px]">
+            <div class="md:flex md:flex-col md:items-center md:gap-10 flex flex-col items-center gap-5">
+                <div
+                    class="md:flex md:flex-row md:gap-[80px] md:items-center md:mt-20 flex flex-row gap-10 items-center mt-10">
+                    <input type="date" class="md:w-[526px] md:h-[82px] rounded-xl md:text-3xl w-[150px] h-[50px]" />
+                    <input type="time" class="md:w-[320px] md:h-[82px] rounded-xl md:text-3xl w-[80px] h-[40px]" />
+                </div>
+                <div
+                    class="md:flex md:flex-row md:gap-[80px] md:items-center md:mt-20 flex flex-row gap-5 items-center mt-10 ">
+                    <div class="md:flex md:flex-row md:items-center flex flex-row items-center">
+                        <div id="blocknosmooking"
+                            class="md:w-[263px] md:h-[82px] md:items-center md:flex md:justify-center rounded-tl-xl rounded-bl-xl bg-green-700 w-[90px] h-[50px] flex justify-center items-center">
+                            <p id="textnosmk" style="font-family: Poppins;" class="md:text-3xl text-white text-xs">Non
+                                Smoking</p>
+                        </div>
+                        <div id="blocksmooking"
+                            class="md:w-[263px] md:h-[82px] md:items-center md:flex md:justify-center rounded-tr-xl rounded-br-xl bg-white w-[90px] h-[50px] flex items-center justify-center">
+                            <p id="textsmk" style="font-family: Poppins;" class="md:text-3xl text-black text-xs">Smoking
+                            </p>
+                        </div>
+                    </div>
+                    <input placeholder="Jumlah orang" type="text"
+                        class="md:w-[320px] md:h-[82px] rounded-xl md:text-3xl md:flex md:items-center bg-white md:justify-center md:pl-5 flex justify-center items-center w-[90px] h-[40px] text-xs pl-3" />
+                </div>
+                <div style="opacity: 70%;" class="w-[300px] bg-black h-[1px] mt-[30px]"></div>
+                <input
+                    class="md:w-[1006px] md:h-[125px] bg-white rounded-xl md:pl-5 text-gray-400 outline-none border border-gray-400 md:text-3xl w-[300px] h-[40px] pl-3 mt-[20px]"
+                    placeholder="Nama Anda" />
+                <input
+                class="md:w-[1006px] md:h-[125px] bg-white rounded-xl md:pl-5 text-gray-400 outline-none border border-gray-400 md:text-3xl w-[300px] h-[40px] pl-3"
+                placeholder="Email Anda" />
+                <input
+                class="md:w-[1006px] md:h-[125px] bg-white rounded-xl md:pl-5 text-gray-400 outline-none border border-gray-400 md:text-3xl w-[300px] h-[40px] pl-3"
+                placeholder="No.Hp/Telp" />
+                <input
+                class="md:w-[1006px] md:h-[125px] bg-white rounded-xl md:pl-5 text-gray-400 outline-none border border-gray-400 md:text-3xl w-[300px] h-[40px] pl-3"
+                placeholder="Masukan/DLL" />
+            </div>
+        </div>
+    </div>
+    <div class="flex md:flex-row flex-col md:gap-[400px] gap-24 items-center mt-32 md:mt-[100px] ml-6 md:ml-[70px]">
+        <div class="flex flex-row md:gap-[120px] gap-6">
+            <div class="flex-col gap-11 flex">
+                <p class="font-bold text-5xl">Ajwad</p>
+                <p class="text-2xl">Hubungi kami</p>
+                <p class="text-2xl">Tentang Kami</p>
+                <p class="text-2xl">Newsroom</p>
+                <p class="text-2xl">Karier</p>
+            </div>
+            <div class="flex-col gap-11 flex mt-24">
+                <p class="text-2xl">Layanan Kami</p>
+                <p class="text-2xl">Sertifikasi & Jaminan Kualitas</p>
+                <p class="text-2xl">CSGR</p>
+                <p class="text-2xl">WFC plus</p>
+            </div>
+        </div>
+        <div class="flex flex-col gap-11">
+            <p class="font-bold text-5xl">Hubungi Kami</p>
+            <img src="/assets/img/SOSMED2.png" alt="">
+        </div>
+    </div>
+    <div
+        class="flex flex-col md:flex-row bg-bgbtn w-full h-28 py-4 justify-center items-center md:gap-[600px] gap-4 mt-24 md:mt-40">
+        <p class="text-2xl text-white">@Ajwad Resto INDONESIA</p>
+        <div class="flex flex-row md:gap-9 gap-4 items-center">
+            <p class="text-2xl text-white text-center">syarat & Ketentuan</p>
+            <p class="text-2xl text-white text-center">Kebijakan Privasi</p>
+        </div>
+    </div>
+</body>
+<script>
+    let textsmk = document.getElementById("textsmk")
+    let textnosmk = document.getElementById("textnosmk")
+    let blockRoko = document.getElementById("blocksmooking")
+    let blockNoroko = document.getElementById("blocknosmooking")
+    blockRoko.addEventListener('click', function () {
+        blockRoko.style.backgroundColor = "green"
+        blockNoroko.style.backgroundColor = "white"
+        textnosmk.style.color = "black"
+        textsmk.style.color = "white"
+    })
+    blockNoroko.addEventListener('click', function () {
+        blockNoroko.style.backgroundColor = "green"
+        blockRoko.style.backgroundColor = "white"
+        textsmk.style.color = "black"
+        textnosmk.style.color = "white"
+    })
+</script>
+
+</html>
